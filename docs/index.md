@@ -126,27 +126,23 @@ $$
 $$
 
 
-Bogus escaping:
+# LOOK AT THE MATH 
 
+second example without aligned environment:
+$$
+\sum_{n\in N} x_n = 5
+\sum x + y + z = 7
+$$
 
+with aligned env:
 $$
 \begin{aligned}
-    \mathbf{ORP}\\_{o,t,y,r,s,h}
-    \leq
-    RTUB\\_{o,t} \times HW\\_h \times
-    \mathbf{CAP^{tot}}\\_{r,MHS\\_h,t^s,s,y}\\
-    \forall {o,t,y,r,s,h} \in \Theta\\_{proc} \\
-    \quad if \quad sw\\\_reserves = 1\\
+\sum_{n\in N} x_n &= 5\\
+\sum x + y + z &= 7
 \end{aligned}
 $$
 
-second example without aligned:
-$$
-\sum_{n\in N} x_n = 5
-$$
-
-
-Good escaping:
+Good escaping, alignment, and preservation of underscore in *sw_reserves*:
 
 
 $$
@@ -160,7 +156,7 @@ sw\_reserves = 1
 $$
 
 
-Using "math" block
+Using "math" block fails in IDE and built site, works in GitHub's previewer (not real helpful):
 
 
 ```math
