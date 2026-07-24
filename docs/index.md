@@ -158,7 +158,7 @@ sw\_reserves = 1
 $$
 
 
-Using "math" block fails in IDE and built site, works in GitHub's previewer (not real helpful):
+Using "math" block fails in IDE and built site, works (partially) in GitHub's previewer (not real helpful):
 
 
 ```math
