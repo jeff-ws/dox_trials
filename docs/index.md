@@ -140,6 +140,11 @@ $$
 \end{aligned}
 $$
 
+second example without aligned:
+$$
+\sum_{n\in N} x_n = 5
+$$
+
 
 Good escaping:
 
