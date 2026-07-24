@@ -127,6 +127,8 @@ $$
 
 
 Bogus escaping:
+
+
 $$
 \begin{aligned}
     \mathbf{ORP}\\_{o,t,y,r,s,h}
@@ -138,7 +140,10 @@ $$
 \end{aligned}
 $$
 
+
 Good escaping:
+
+
 $$
 \begin{aligned}
 \mathbf{ORP}_{o,t,y,r,s,h}
@@ -148,7 +153,11 @@ $$
 sw\_reserves = 1
 \end{aligned}
 $$
+
+
 Using "math" block
+
+
 ```math
 \begin{aligned}
 \mathbf{ORP}_{o,t,y,r,s,h}
@@ -158,6 +167,7 @@ Using "math" block
 sw\_reserves = 1
 \end{aligned}
 ```
+
 
 !!! warning "Needs configuration"
     Note that MathJax is included via a `script` tag on this page and is not
