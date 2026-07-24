@@ -127,6 +127,7 @@ $$
 
 
 Bogus escaping:
+
 $$
 \begin{aligned}
     \mathbf{ORP}\\_{o,t,y,r,s,h}
@@ -139,6 +140,7 @@ $$
 $$
 
 Good escaping:
+
 $$
 \begin{aligned}
 \mathbf{ORP}_{o,t,y,r,s,h}
@@ -148,7 +150,9 @@ $$
 sw\_reserves = 1
 \end{aligned}
 $$
+
 Using "math" block
+
 ```math
 \begin{aligned}
 \mathbf{ORP}_{o,t,y,r,s,h}
