@@ -139,7 +139,7 @@ with aligned env:
 
 $$
 \begin{aligned}
-\sum_{n\in N} x_n &= 5 \\
+\sum_{n\in N} x_n &= 5\\
 \sum x + y + z &= 7
 \end{aligned}
 $$
